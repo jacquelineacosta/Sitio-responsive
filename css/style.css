@@ -1,0 +1,15 @@
+#navbarNav {
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.navbar-nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 995px){
+    #optionsContainer{
+        display: none;
+    }
+}
