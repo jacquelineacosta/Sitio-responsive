@@ -44,4 +44,7 @@
     .extra-options {
         display: block;
     }
+    body {
+        background-image: none;
+    }
 }
