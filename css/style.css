@@ -1,6 +1,21 @@
+   body {
+        background-image: url('/img/background.png');
+        background-size: cover; /* Ajusta el tamaño de la imagen */
+        background-repeat: no-repeat; /* Evita que la imagen se repita */
+        background-position: center; /* Centra la imagen */
+    }
+
 #navbarNav {
     justify-content: space-evenly;
     flex-direction: row;
+}
+
+.justify-text {
+    text-align: justify;
+}
+
+.navbar {
+    background-color:rgb(120, 10, 10);
 }
 
 .navbar-nav {
@@ -11,5 +26,22 @@
 @media (max-width: 995px){
     #optionsContainer{
         display: none;
+    }
+}
+.container1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ li.list-group-item{
+    background-color: rgb(120, 10, 10);
+    color:white;
+}
+.extra-options {
+    display: none; /* Oculto por defecto */
+}
+@media (max-width: 991px) {
+    .extra-options {
+        display: block;
     }
 }
